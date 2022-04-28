@@ -84,3 +84,18 @@ One can use the cell delay annotations, node slew/at/netdelay/rat annotations as
 ### `7_homotest`: The simple homograph dataset
 (To be filled here.) This is not intended to be used.
 
+
+## Reference
+Please cite our work if you find this dataset useful.
+
+``` tex
+@inproceedings{mltimerdac22,
+ author = {Guo, Zizheng and Liu, Mingjie and Gu, Jiaqi and Zhang, Shuhan and Pan, David Z. and Lin, Yibo},
+ booktitle = {Proceedings of the 59th Annual Design Automation Conference 2022},
+ organization = {ACM},
+ title = {A Timing Engine Inspired Graph Neural Network Model for Pre-Routing Slack Prediction},
+ year = {2022}
+}
+```
+
+
