@@ -67,7 +67,9 @@ You can also refer to our [code](https://github.com/TimingPredict/TimingPredict)
 ### `8_rat`: Full annotated timing graph dataset
 This contains dumpped [DGL](https://www.dgl.ai/) heterogeneous graphs.
 
-There are three kinds of edges and one kind of node:
+There are three kinds of edges and one kind of node.
+[Here](https://github.com/TimingPredict/Dataset/issues/1) is an explanation to the meaning of edge types.
+The information included is:
 
 #### `net_out` and `net_in`
 net arcs.
