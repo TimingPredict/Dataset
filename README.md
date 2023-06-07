@@ -29,7 +29,28 @@ This dataset is made from open-source PDK [skywater130](https://github.com/googl
 
 In [our DAC22 work](https://guozz.cn/publication/mltimerdac-22/), the upper 14 benchmarks are used for training and the lower 7 are used for testing. (We used a [modified OpenSTA](https://github.com/TimingPredict/OpenSTADump) to dump timing-sensitive intermediate data. Please see our paper for other details on the benchmark and settings.)
 
-## Download
+
+
+## Raw Netlist Download
+
+[*New 2023/6/7*] You can now download our raw design data from one of the following links: (7-zipped ~500MB)
+
+https://disk.pku.edu.cn:443/link/90D8E40611678D1A24C214A1EFBA9630
+
+https://drive.google.com/file/d/1QimU8q2cIADLBVL6GGFRm6tSBKbj3ZbB/view?usp=sharing
+
+https://cloud.guozz.cn/s/x9T4
+
+The archive contains:
+
+* The [skywater130](https://github.com/google/skywater-pdk/) PDK (in `./techlib`), including liberty and lef files.
+* The gate-level Verilog, DEF, SDC, SPEF, and SDF files for all the above 21 circuits, implemented using [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD).
+
+Have fun hacking!
+
+
+
+## Graph Data Download for GNN Training & Inference
 Please choose one of the links below. The 7-zipped file is about 200 MB in size.
 
 https://disk.pku.edu.cn:443/link/A01D052FB4A134A1523AD101F7F5B511
@@ -37,6 +58,8 @@ https://disk.pku.edu.cn:443/link/A01D052FB4A134A1523AD101F7F5B511
 https://drive.google.com/file/d/1kknTAi8x55bgFeHb8UVnVUpw3cCvkZMe/view?usp=sharing
 
 https://cloud.guozz.cn/s/mOsK
+
+
 
 ## Documentation
 You can also refer to our [code](https://github.com/TimingPredict/TimingPredict) for usage.
@@ -85,6 +108,8 @@ One can use the cell delay annotations, node slew/at/netdelay/rat annotations as
 (To be filled here.) This is not intended to be used.
 
 
+
+
 ## Reference
 Please cite our work if you find this dataset useful.
 
@@ -97,5 +122,4 @@ Please cite our work if you find this dataset useful.
  year = {2022}
 }
 ```
-
 
